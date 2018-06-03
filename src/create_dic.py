@@ -27,6 +27,7 @@ class DicType(Enum):
     """
     CHARACTER = 'character'
     MUSIC = 'music'
+    ACTOR = 'actor'
 
 
 class Series(Enum):
