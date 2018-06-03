@@ -43,12 +43,12 @@ class DicEntry(object):
     アイカツ!辞書のマスターデータ内の1エントリ情報
     """
 
-    def __init__(self, surface, normalized_surface, pos, yomi, series, dic_type):
+    def __init__(self, surface, normalized_surface, pos, yomi, series_set, dic_type):
         self.surface = surface
         self.normalized_surface = normalized_surface
         self.pos = pos
         self.yomi = yomi
-        self.series = series
+        self.series_set = series_set
         self.dic_type = dic_type
 
     def __repr__(self):
@@ -75,21 +75,22 @@ class MasterDic(object):
                 cols = line.split('\t')
                 if len(cols) != 6:
                     raise ValueError('Dic format is illegal.column size={},  input={}'.format(len(cols), line))
-                series = Series(cols[4])
+                series_set = set([Series(s) for s in cols[4].split(',')])
                 dic_type = DicType(cols[5])
-                entries.append(DicEntry(cols[0], cols[1], cols[2], cols[3], series, dic_type))
+                entries.append(DicEntry(cols[0], cols[1], cols[2], cols[3], series_set, dic_type))
         return entries
 
-    def extract(self, dic_type, series):
+    def extract(self, dic_type, series_set):
         """
         指定された条件に該当する辞書エントリを抽出する。
         :param dic_type: 辞書の種類
-        :param series: 対象のシリーズ
+        :param series_set: 対象のシリーズset
         :return:
         """
         entries = []
         for entry in self.__entries:
-            if entry.dic_type == dic_type and entry.series == series:
+            common_series = series_set & entry.series_set
+            if entry.dic_type == dic_type and 0 < len(common_series):
                 entries.append(entry)
         return entries
 
@@ -147,9 +148,7 @@ def create(out_dir, arg_version, arg_series):
     master_dic = MasterDic(MASTER_DIC_PATH)
 
     for dic_type in DicType:
-        entries = []
-        for series in target_series:
-            entries.extend(master_dic.extract(dic_type, series))
+        entries = master_dic.extract(dic_type, target_series)
         for version in target_versions:
             print("Create {}'s {} dic.".format(version.value, dic_type.value))
             if version == DicVersion.GOOGLE:
