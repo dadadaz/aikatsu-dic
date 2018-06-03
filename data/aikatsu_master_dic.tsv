@@ -205,6 +205,32 @@ KAYOKO	KAYOKO	人名	かよこ	aikatsu	character
 ハルカ☆ルカ	ハルカ☆ルカ	人名	はるかるか	stars	character
 ハルカルカ	ハルカ☆ルカ	人名	はるかるか	stars	character
 アリス キャロル	アリス キャロル	人名	ありすきゃろる	stars	character
+友希あいね	友希あいね	人名	ゆうきあいね	friends	character
+友希あいね	友希あいね	人名	あいね	friends	character
+湊みお	湊みお	人名	みなとみお	friends	character
+湊みお	湊みお	人名	みお	friends	character
+蝶乃舞花	蝶乃舞花	人名	ちょうのまいか	friends	character
+蝶乃舞花	蝶乃舞花	人名	まいか	friends	character
+日向エマ	日向エマ	人名	ひなたえま	friends	character
+日向エマ	日向エマ	人名	えま	friends	character
+神城カレン	神城カレン	人名	かみしろかれん	friends	character
+神城カレン	神城カレン	人名	かれん	friends	character
+明日香ミライ	明日香ミライ	人名	あすかみらい	friends	character
+明日香ミライ	明日香ミライ	人名	みらい	friends	character
+友希まさむね	友希まさむね	人名	ゆうきまさむね	friends	character
+友希ねね	友希ねね	人名	ゆうきねね	friends	character
+友希かずね	友希かずね	人名	ゆうきかずね	friends	character
+友希すずね	友希すずね	人名	ゆうきすずね	friends	character
+友希ももね	友希ももね	人名	ゆうきももね	friends	character
+友希よしつね	友希よしつね	人名	ゆうきよしつね	friends	character
+ぺんね	ぺんね	人名	ぺんね	friends	character
+ぺん様	ぺん様	人名	ぺんね	friends	character
+円城寺たまき	円城寺たまき	人名	えんじょうじたまき	friends	character
+円城寺たまき	円城寺たまき	人名	たまき	friends	character
+ケン・マユズミ	ケン・マユズミ	人名	けんまゆずみ	friends	character
+蜂谷千春	蜂谷千春	人名	はちやちはる	friends	character
+蜂谷千春	蜂谷千春	人名	ちはる	friends	character
+ココ	ココ	人名	ここ	friends	character
 Signalize!	Signalize!	固有名詞	しぐならいず	aikatsu	music
 Signalize	Signalize!	固有名詞	しぐならいず	aikatsu	music
 シグナライズ	Signalize!	固有名詞	しぐならいず	aikatsu	music
@@ -427,6 +453,15 @@ Sunny Day Little Sunday	Sunny Day Little Sunday	固有名詞	さにーでいり�
 We are STARS!!!!!	We are STARS!!!!!	固有名詞	うぃーあーすたーず	stars	music
 We are STARS!	We are STARS!!!!!	固有名詞	うぃーあーすたーず	stars	music
 We are STARS	We are STARS!!!!!	固有名詞	うぃーあーすたーず	stars	music
+アイカツフレンズ！	アイカツフレンズ！	固有名詞	あいかつふれんず	friends	music
+ありがと⇄大丈夫	ありがと⇄大丈夫	固有名詞	ありがとだいじょうぶ	friends	music
+ありがと大丈夫	ありがと⇄大丈夫	固有名詞	ありがとだいじょうぶ	friends	music
+Believe it	Believe it	固有名詞	びりーぶいっと	friends	music
+6cm上の景色	6cm上の景色	固有名詞	ろくせんちうえのけしき	friends	music
+アイデンティティ	アイデンティティ	固有名詞	あいでんてぃてぃ	friends	music
+Girls be anbitious!	Girls be anbitious!	固有名詞	がーるずびーあんびしゃす	friends	music
+個×個	個×個	固有名詞	きみわたし	friends	music
+愛で溢れている	愛で溢れている	固有名詞	あいであふれている	friends	music
 諸星すみれ	諸星すみれ	人名	もろほしすみれ	aikatsu,stars,friends	actor
 すーちゃん	すーちゃん	人名	もろほしすみれ	aikatsu,stars,friends	actor
 諸星すみれ	諸星すみれ	人名	すーちゃん	aikatsu,stars,friends	actor
@@ -613,7 +648,21 @@ We are STARS	We are STARS!!!!!	固有名詞	うぃーあーすたーず	stars	mu
 堀越せな	堀越せな	人名	せな	stars	actor
 藤城リエ	藤城リエ	人名	ふじしろりえ	aikatsu,stars	actor
 藤城リエ	藤城リエ	人名	りえ	aikatsu,stars	actor
+松永あかね	松永あかね	人名	まつながあかね	friends	actor
+松永あかね	松永あかね	人名	あかね	friends	actor
+木戸衣吹	木戸衣吹	人名	きどいぶき	aikatsu,friends	actor
+木戸衣吹	木戸衣吹	人名	きどちゃん	aikatsu,friends	actor
+美山加恋	美山加恋	人名	みやまかれん	friends	actor
+美山加恋	美山加恋	人名	かれん	friends	actor
+二ノ宮ゆい	二ノ宮ゆい	人名	にのみやゆい	friends	actor
+増田ゆき	増田ゆき	人名	ますだゆき	friends	actor
+石谷春貴	石谷春貴	人名	いしやはるき	friends	actor
+中原麻衣	中原麻衣	人名	なかはらまい	friends	actor
+中原麻衣	中原麻衣	人名	まいまい	friends	actor
+佐藤利奈	佐藤利奈	人名	さとうりな	friends	actor
+佐藤利奈	佐藤利奈	人名	さとりな	friends	actor
 STAR☆ANIS	STAR☆ANIS	人名	すたーあにす	aikatsu	actor
 STAR☆ANIS	STAR☆ANIS	人名	すたあに	aikatsu	actor
 AIKATSU☆STARS	AIKATSU☆STARS	人名	あいかつすたーず	aikatsu,stars	actor
 AIKATSU☆STARS	AIKATSU☆STARS	人名	あいすた	aikatsu,stars	actor
+BEST FRIENDS!	BEST FRIENDS!	人名	べすとふれんず	friends	actor
