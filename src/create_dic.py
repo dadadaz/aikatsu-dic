@@ -134,7 +134,12 @@ def out_atok_dic(out_dir, entries, dic_type):
 
     with open(file_path, 'w', encoding='utf-16') as f:
         for entry in reduce_entries_for_suggest_dic(entries):
-            f.write('{}\t{}\t{}\n'.format(entry.yomi, entry.normalized_surface, entry.pos))
+            pos = entry.pos
+            if pos == '人名':
+                pos = '固有人名'
+            elif pos == '固有名詞':
+                pos = '固有一般'
+            f.write('{}\t{}\t{}\n'.format(entry.yomi, entry.normalized_surface, pos))
 
 
 def make_dir(out_dir):
